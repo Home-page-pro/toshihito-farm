@@ -1,0 +1,18 @@
+@mixin pc {
+    @media (max-width: 1190px) {
+    @content;
+    }
+}
+@mixin sp {
+    @media (max-width: 770px) {
+    @content;
+    }
+}
+
+body {
+    letter-spacing: 0.1rem;
+}
+
+.main-top-box {
+    display: flex;
+}
